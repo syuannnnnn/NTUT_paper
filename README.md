@@ -3,8 +3,11 @@
 
 **步驟**
 **1.** Clone TripoSR 官方 github : https://github.com/VAST-AI-Research/TripoSR.git
+
 **2.** 架設環境、執行 TripoSR 文件中 example.py 是否可以正常執行 (詳細建置相關教學已放進 140 "70_程式碼_資料" 檔案夾)
+
 **3.1. lora 微調:**
+
 **訓練** 要改下面這幾個檔案: (新增一個訓練程式碼，執行LoRA微調訓練 ! )
 - TripoSR/tsr/models/transformer/attention.py
 - TripoSR/tsr/models/transformer/basic_transformer_block.py
@@ -21,8 +24,10 @@
 - "--ground-truth" 用於計算指標
 
 **3.2. Knowledge Distillation 微調** (是獨立的 不是延續 LoRA ! )
+
 需要 Trellis output + TripoSR output + ground truth 一起算損失函數，所以要先有Trellis的輸出結果
 TripoSR 不用更動程式碼，直接拿他的原始輸出
+
 **訓練** 一樣新增一個訓練程式碼:
 - 主要是損失函數的配置
 - 訓練集路徑設置要正確
