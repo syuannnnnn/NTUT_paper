@@ -7,7 +7,7 @@
 
 **步驟**
 
-**1.** Clone TripoSR 官方 github : https://github.com/VAST-AI-Research/TripoSR.git
+**1.** Clone TripoSR 官方 github
 
 **2.** 架設環境、執行 TripoSR 文件中 example.py 是否可以正常執行 (詳細建置相關教學已放進 140 "70_程式碼_資料" 檔案夾)
 
