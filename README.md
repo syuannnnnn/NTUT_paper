@@ -1,4 +1,4 @@
-# Fine-Tuning-TripoSR
+# Instruction
 ‼️交接光碟有放簡報連結+PDF檔，若需詳細流程請參考 140 裡: \digital_library_3\圖學實驗室_畢業交接光碟_112\交接光碟_112598048_曾詠暄\70_程式碼_資料 
 
 ‼️tsr 資料夾是 TripoSR github 裡面的 tsr，裡面是我修改過後的程式
