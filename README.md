@@ -42,3 +42,8 @@
   
 **評估** 
 - 和 lora 內容差不多，但要記得 cfg.use_lora=false
+
+
+**Docker 執行**
+建立 : docker build -t <image的名字> . 
+執行 : docker run -it <image的名字>
