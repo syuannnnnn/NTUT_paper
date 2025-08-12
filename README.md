@@ -45,5 +45,7 @@
 
 
 **Docker 執行**
+
 建立 : docker build -t <image的名字> . 
+
 執行 : docker run -it <image的名字>
